@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'poppins';
+}
+.container form input{
+    border:none;
+    outline:none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #3a4452;
+   margin: 1px;
+   color: whitesmoke;
+    
+}
+.outer{
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    background-color:#3a4452;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px black;
+    margin-top: 10%;
+
+}
+.display{
+   
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size: 50px;
+    box-shadow:none;  
+} 
+form input.equal{
+    width: 125px;
+}
+
+
